@@ -24,3 +24,11 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 600px) {
+  .controlPane {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 32px;
+  }
+}
